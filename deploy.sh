@@ -1,5 +1,6 @@
 source venv/bin/activate
 cd webapp
+yarn install
 yarn run build
 cd ..
 python manage.py collectstatic --noinput
