@@ -3,7 +3,7 @@
 Run the project
 
 
-`virtualenv venv`
+`virtualenv venv -p python3.6`
 
 `source venv/bin/activate`
 
